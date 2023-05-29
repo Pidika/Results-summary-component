@@ -2,6 +2,16 @@ body {
     margin: 0;
     font-family: 'Hanken Grotesk';
 }
+h4 {
+    display: block;
+    /* font-size: .67em; */
+    /* margin-top: 2.33em; */
+    /* margin-bottom: 2.33em; */
+    margin-left: 0;
+    margin-right: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
 /*first section*/
 .main {
     background-image: linear-gradient(#6541FD, #5239F5, #332DE9);
@@ -73,7 +83,6 @@ h2 {
         line-height: 1;
         width: 100px;
         margin-left: -11px;
-        padding-bottom: 15px;
 }
 .values {
     margin-left: 70px;
@@ -90,17 +99,6 @@ h2 {
 }
 img {
     padding-left: 10px ;
-}
-h6 {
-    
-        display: block;
-        font-size: 1rem;
-        margin-block-start: 2.33em;
-        margin-block-end: 2.33em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        margin: 14px 0 0 50px;
 }
 #one {
     background-color: #FFE1E0;
@@ -137,7 +135,7 @@ h6 {
     border-radius: 30px;
     background-color: #394460;
     border: 0;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .btn:hover {
     background-color: hsl(222, 91%, 46%);
